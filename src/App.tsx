@@ -1,8 +1,10 @@
 import "./App.css";
 import Cards from "./Components/Cards";
 import ClientReview from "./Components/ClientReview";
+import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import PicturesGrid from "./Components/PicturesGrid";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Hero />
       <Cards />
       <ClientReview />
+      <PicturesGrid />
+      <Footer />
     </div>
   );
 }

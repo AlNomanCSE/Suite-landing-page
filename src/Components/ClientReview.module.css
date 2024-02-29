@@ -8,8 +8,10 @@
   align-items: center;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: var(--Very-dark-grayish-blue);
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 .cards {
